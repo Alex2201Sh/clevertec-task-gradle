@@ -19,7 +19,9 @@ Call Utils.isAllPositiveNumbers("12", "79") from the main method of api subproje
 
 Дополнительно:
 * Сделать gradle плагин, который также опубликовать и подключить к проекту.
-//TODO:realize 
+
+[completed](https://github.com/Alex2201Sh/clevertec-task-gradle/tree/master/my-plugin)
+
 * Как пример функциональности плагина - тестирование и формирование отчета.
 //TODO:realize
 

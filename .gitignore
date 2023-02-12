@@ -41,3 +41,4 @@ bin/
 /sample_gradle_plugin-groovy-dsl/.idea/*
 /utils/.idea/*
 /sample_gradle_plugin-groovy-dsl/
+/my-plugin/.idea/
