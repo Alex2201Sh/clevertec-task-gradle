@@ -5,10 +5,7 @@ build/
 !**/src/test/**/build/
 
 ### IntelliJ IDEA ###
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
+.idea/*
 *.iws
 *.iml
 *.ipr
@@ -40,3 +37,7 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+/multi-project/.idea/*
+/sample_gradle_plugin-groovy-dsl/.idea/*
+/utils/.idea/*
+/sample_gradle_plugin-groovy-dsl/

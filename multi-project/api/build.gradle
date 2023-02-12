@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+}
+
+group 'by.shumilov'
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation project(":core")
+    implementation files('../libs/utils-1.3.5.jar')
+}
+
+test {
+    useJUnitPlatform()
+}
+
+
+apply plugin: 'application'
+
+mainClassName = 'by.shumilov.App'
